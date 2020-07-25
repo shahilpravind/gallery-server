@@ -78,6 +78,8 @@ return [
             'prefix_indexes' => true,
             'schema' => 'public',
             'sslmode' => 'prefer',
+            'charset' => 'utf8',
+            'collation' => 'utf8_general_ci',
         ],
 
         'sqlsrv' => [
